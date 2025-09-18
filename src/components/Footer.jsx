@@ -94,7 +94,7 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="mt-8 border-t border-[#d68b0c]/40 pt-4 text-sm sm:text-base text-center">
-        © 2025 Bottega Cafe. All rights reserved.
+        © 2025 Brewtiful Coffee. All rights reserved.
       </div>
     </footer>
   );
