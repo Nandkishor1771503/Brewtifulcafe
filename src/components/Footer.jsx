@@ -86,7 +86,7 @@ export default function Footer() {
           href="https://wa.me/9642028266?text=Hello%2C%20I%E2%80%99d%20like%20to%20book%20a%20table%20at%20Brewtiful%20Cafe."
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#d68b0c] text-black px-6 py-3 rounded-full bg-gradient-to-r from-[#7d5a0a] via-[#a87c1f] to-[#92720a] cursor-pointer font-semibold shadow-xl hover:bg-[#b6730a] hover:scale-105 transition-all duration-300"
+          className="bg-[#d68b0c] text-[#063d52] px-6 py-3 rounded-full bg-gradient-to-r from-[#7d5a0a] via-[#a87c1f] to-[#92720a] cursor-pointer font-semibold shadow-xl hover:bg-[#b6730a] hover:scale-105 transition-all duration-300"
         >
           Book a Table
         </a>
