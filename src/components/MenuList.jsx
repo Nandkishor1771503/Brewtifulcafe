@@ -34,7 +34,7 @@ function MenuList() {
         {listData.map((data, i) => {
           return (
             <div
-              className=" md:flex items-center justify-between hover:bg-[#d7b68c] transition-all duration-300 ease-in-out transform hover:py-8 p-6  px-10 m-2 my-4 rounded-2xl cursor-pointer  border-1 border-[#46271b]"
+              className=" md:flex items-center justify-between  hover:bg-[#d7b68c] transition-all duration-300 ease-in-out transform hover:py-8 p-6  md:px-10 m-2 my-4 rounded-2xl cursor-pointer  border-1 border-[#46271b]"
               key={i}
             >
               <img
@@ -46,7 +46,7 @@ function MenuList() {
                 <h2 className="text-5xl text-[#46271b] font-serif">
                   {data.title}
                 </h2>
-                <p className="font-sans text-[#46271b]">Rich Aromatic Brews</p>
+                <p className="font-sans text-[#46271b]">{data.subTitle}</p>
               </div>
               <button className="text-[#46271b] text-xl border-[#46271b] rounded-lg  px-6 py-2  transition-all duration-300 ease-in-out hover:bg-[#46271b] hover:text-[#f7decb] hover:scale-105 float-end 
               mt-5 -mx-5 md:m-0 ">
