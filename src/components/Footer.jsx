@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex gap-10 items-center justify-center w-full aspect-video rounded-xl overflow-hidden shadow-xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15227.767414260952!2d78.40292148715818!3d17.414577900000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97d9ae034189%3A0xe7b233351b516095!2sBrewtiful%20Coffee!5e0!3m2!1sen!2sin!4v1758206734933!5m2!1sen!2sin"
-            className="w-full h-full border-0 rounded-xl"
+            className="w-52 h-52 border-0 rounded-xl"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -21,7 +21,7 @@ export default function Footer() {
           ></iframe>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0399458880493!2d78.36627057493641!3d17.457802083441447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93d4cd5b4d8f%3A0xf6d1b5fa3ad0a26d!2sBrewtiful%20Coffee!5e0!3m2!1sen!2sin!4v1758207036313!5m2!1sen!2sin"
-            className="w-full h-full border-0 rounded-xl"
+            className="w-52 h-52 border-0 rounded-xl"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

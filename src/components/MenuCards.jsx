@@ -30,9 +30,9 @@ function MenuCards() {
   ];
 
   return (
-    <div className="w-full min-h-[55vh] md:h-[90vh] pt-8 sm:pt-12 flex flex-col items-center bg-[#063d52]">
+    <div className="w-full min-h-[55vh] md:h-[90vh] pt-5 md:pt-8  sm:pt-12 flex flex-col items-center bg-[#063d52]">
       {/* Section Heading */}
-      <h2 className="text-[#cc9f78] text-2xl sm:text-3xl md:text-4xl font-thin mb-8 sm:mb-12">
+      <h2 className="text-[#cc9f78] text-3xl md:text-4xl font-thin mb-8 sm:mb-12">
         Our Coffee
       </h2>
 
