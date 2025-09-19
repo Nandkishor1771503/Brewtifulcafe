@@ -12,7 +12,7 @@ function Navbar() {
         <img
           src={logo}
           alt="Logo"
-          className="w-[18vw] h-10 md:h-14 md:w-[8vw]"
+          className="w-[18vw] h-10 md:h-14 md:w-[10vw]"
         />
 
         {/* Desktop Nav */}

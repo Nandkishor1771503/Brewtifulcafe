@@ -59,7 +59,7 @@ function MenuCards() {
         }}
         breakpoints={{
           0: {
-            slidesPerView: 1.2, // Mobile
+            slidesPerView: 2.5, // Mobile
             spaceBetween: 12,
           },
           480: {
