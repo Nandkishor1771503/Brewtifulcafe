@@ -4,16 +4,16 @@ import espresso from "../images/Esspreso.png";
 function Hero() {
   return (
     <>
-      <div className="mobiledesign md:hidden bg-[#cc9f78] text-[#063d52]">
+      <div className="mobiledesign md:hidden p-8 bg-[#cc9f78] text-[#063d52]">
         <div className="flex items-center justify-center">
           <img
             src={latte}
             alt=""
-            className=" w-[60%] p-14 rounded-4xl shadow-2xl"
+            className=" w-[60%] md:p-14 p-5 rounded-4xl shadow-2xl"
           />
           <h1 className="text-3xl font-bold ml-8 mt-16"> Fueling Your Day </h1>
         </div>
-        <div className="flex items-center justify-center gap-10">
+        <div className="flex items-center justify-center gap-10 my-5">
           <h1 className="text-3xl leading-relaxed font-thin my-2 ml-7 ">
             {" "}
             In A Brewtiful Way{" "}
@@ -22,7 +22,7 @@ function Hero() {
           <img
             src={espresso}
             alt=""
-            className=" w-[60%] p-14 rounded-4xl shadow-2xl"
+            className=" w-[60%] md:p-14 p-5 rounded-4xl shadow-2xl"
           />
         </div>
       </div>

@@ -28,18 +28,18 @@ export default function InfiniteScroller() {
         {[1, 2].map((row) => (
           <SwiperSlide key={row}>
             <div
-              className="
+              className="w-[158vw] md:w-full
                 flex items-center justify-center 
-                gap-8 sm:gap-12 md:gap-16 lg:gap-36
-                w-full bg-[#063d52] text-[#cc9f78] 
+               gap-12 sm:gap-16 md:gap-20 lg:gap-28
+                 bg-[#063d52] text-[#cc9f78] 
                 text-base sm:text-lg md:text-xl lg:text-4xl font-serif 
-                py-6 px-2 sm:px-4
+                py-6 px-2 sm:px-4 md:mx-0 mx-32
               "
             >
-              {[1, 2, 3, 4, 5].map((_, i) => (
+              {[1, 2, 3, 4, 5].map((e, i) => (
                 <div
                   key={i}
-                  className="flex items-center gap-10 sm:gap-3 whitespace-nowrap"
+                  className={`flex items-center gap-10 sm:gap-3 whitespace-nowrap`}
                 >
                   <h2 className=" text-[#cc9f78]">Brewtiful</h2>
                 </div>

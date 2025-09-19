@@ -6,10 +6,14 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#063d52] sticky top-0 z-50 text-[#cc9f78] shadow-lg">
+    <nav className="bg-[#063d52] sticky top-0 z-50  text-[#cc9f78] shadow-lg">
       <div className="flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <img src={logo} alt="Logo" className="h-14 w-[8vw]" />
+        <img
+          src={logo}
+          alt="Logo"
+          className="w-[18vw] h-10 md:h-14 md:w-[8vw]"
+        />
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-12 text-xl font-light">
@@ -70,13 +74,12 @@ function Navbar() {
           </a>
           <button className="mt-2 px-6 py-3 rounded-full bg-[#cc9f78] text-[#063d52] font-semibold shadow-lg hover:bg-[#b6730a] transition-all duration-300">
             <a
-            href="https://wa.me/9052939103?text=Hello%2C%20I%E2%80%99d%20like%20to%20book%20a%20table%20at%20Brewtiful%20Cafe."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-
-            Book a Table
-          </a>
+              href="https://wa.me/9052939103?text=Hello%2C%20I%E2%80%99d%20like%20to%20book%20a%20table%20at%20Brewtiful%20Cafe."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a Table
+            </a>
           </button>
         </div>
       )}
